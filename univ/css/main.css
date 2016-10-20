@@ -112,6 +112,19 @@ a:hover, a:active {
 	color: #fff;
 }
 
+.content table,
+.content table td,
+.content table th {
+	border: 1px solid #899;
+	padding: 4px 8px;
+	margin: 12px 0;
+	font-size: 1.7rem;
+}
+.content table.max {
+	width: 100%;
+	table-layout: fixed;
+}
+
 .footer {
 
 }
